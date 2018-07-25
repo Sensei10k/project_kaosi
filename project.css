@@ -37,7 +37,7 @@ body {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1;
 }
 
 /* Style the topnav links */
@@ -84,6 +84,13 @@ body {
     padding: 20px;
 }
 
+/* Profile photo */
+.profile-photo {
+    background-image: url("images/Kaosi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* Add a card effect for articles */
 .card {
     background-color: white;
@@ -107,6 +114,10 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.content {
+    min-height: calc(100vh - 40vh);
 }
 
 /* Footer */
