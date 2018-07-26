@@ -92,9 +92,35 @@ body {
     padding: 20px;
 }
 
+.img1 {
+    background-image: url("images/zoro.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img2 {
+    background-image: url("images/meliodas.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img3 {
+    background-image: url("images/naurto.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img4 {
+    background-image: url("images/luffy.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img5 {
+    background-image: url("images/midoriya.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* Profile photo */
 .profile-photo {
-    background-image: url("images/Kaosi.png");
+    background-image: url("images/goku.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -149,6 +175,9 @@ body {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+    body{
+        padding: 0;
+    }
     #container {
         width: 100%;
     }
